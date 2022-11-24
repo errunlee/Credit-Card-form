@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class='grid'>
+    <div class='left'>
+      <div class='card'>
+        <div class='top'>
+          <p class='circle'></p>
+          <p class='circle1'></p>
+        </div>
+        <div class='bottom'>
+          <p id='yournum' style='text-align:center;font-size:22px;margin-bottom:10px;letter-spacing:2px;'>0000 0000 0000 0000</p>
+          <div class='space'>
+            <span id='yourname'>Jane Foster</span>
+            <span id='yourdate'>00/00</span>
+          </div>
+        </div>
+      </div>
+      <div class='card2'>
+        <img src='images/bg-card-back.png'>
+      </div>
+    </div>
+    <div class='right' style='margin:auto;'>
+      <div class='name'>
+      <p>CARDHOLDER NAME</p>
+      <input id='name' type='text' placeholder='eg. Arun Khatri'>
+        </div>
+      <div class='cardnum'>
+      <p>CARD NUMBER</p>
+      <input id='card' type='number' maxlength='16' placeholder='eg.1234 5678 9012 3456'>
+      </div>
+      <div class='bot'>
+        <div class='bot1'>
+            <p>EXP DATE(MM/YY)</p>
+                    <div class='rtl'>
+            <div class='m'><input id='month' type="number" placeholder='MM'></div><div class='y'><input id='year' type='number' placeholder='YY'></div>
+          </div>
+        </div>
+        <div class='bot2'>
+          <p>CVC</p>
+          <input id='cvc' type='number' placeholder='eg.123'>
+        </div>
+      </div>
+      <button id='confirm'>Confirm</button>
+
+    </div>
+  </div>
+
+
+  <script src="script.js"></script>
+
+  <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>
+</body>
+
+</html>

@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Space+Grotesk:wght@300&display=swap');
+html, body {
+  height: 100%;
+  width: 100%;
+}
+*{
+  margin:0;
+  padding:0;
+}
+.grid{
+  display:grid;
+  grid-template-columns:35vw 65vw;
+  height:100%;
+  width:100%;
+}
+.left{
+  background-image:linear-gradient(hsl(278, 68%, 64%), hsl(278, 68%, 11%));  
+  width:35vw;
+  height:100vh;
+}
+.card{
+  margin: 140px 0 0 259px;
+  height: 170px;
+  width: 302px;
+  border-radius:10px;
+  background:linear-gradient(to top right, hsl(249, 99%, 64%),hsl(278, 94%, 30%), hsl(0, 100%, 66%));
+  display:inline-flex;
+  flex-direction:column;
+  justify-content:space-between;
+  font-family: 'Space Grotesk', sans-serif;
+  color:white;
+}
+.circle{
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
+    background: white;
+}
+.circle1{
+    height: 15px;
+    width: 15px;
+    border-radius: 30px;
+    border:1px solid white;
+    margin-left:10px;
+}
+.top{
+  margin:20px;
+  display:inline-flex;
+  flex-direction:row;
+  align-items:center;
+}
+.bottom{
+  margin:10px;
+}
+.space{
+  display:flex;
+  justify-content:space-between;
+}
+.card2{
+  position:absolute;
+  }
+.card2 img{
+    margin: 30px 0 0 25vw;
+    height: 170px;
+    width: 302px;
+}
+}
+.right{
+  height:100vh;
+  widows:65vw;
+  background: hsl(0, 0%, 100%);
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  font-family: 'Space Grotesk', sans-serif;
+  
+}
+.right p{
+     margin: 6px 0;
+    font-weight: bolder;
+    font-family: 'Space Grotesk', sans-serif;
+    letter-spacing: 1px;
+}
+.right input {
+    padding: 5px;
+    font-size: 15px;
+    width: 290px;
+    height: 30px;
+    border-radius: 4px;
+    border: 1px solid #afacac;
+    font-family: 'Space Grotesk', sans-serif;
+    
+}
+.bot{
+  display:flex;
+}
+.bot input{
+  width:60px;
+}
+.bot1,bot2{
+  display:flex;
+  flex-direction:column;
+  margin-right:85px;
+}
+.rtl{
+  display:flex;
+}
+.rtl input{
+  margin-right:5px;
+}
+button{
+    width: 100%;
+    height: 50px;
+    margin-top: 15px;
+    border-radius: 11px;
+    border: none;
+    color: white;
+    font-size: 18px;
+    background: hsl(278, 68%, 11%);
+    font-family: sans-serif;
+    letter-spacing:1px;
+}
+button:hover{
+  cursor:pointer;
+  background: hsl(279, 71%, 15%);  
+}
+.warning{
+  border:1px solid red !important;
+}
+.msg{
+  color:red;
+  font-family: 'Space Grotesk', sans-serif;
+  letter-spacing: 1px;  
+  font-size: 9px;
+  margin: 0;
+  padding: 0;
+  display:block;
+}
